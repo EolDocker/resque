@@ -3,4 +3,4 @@ MAINTAINER Dmitry Mozzherin
 
 WORKDIR /app
 
-CMD bundle exec rake resque:work --queues=data,notifications
+CMD bundle exec rake resque:work QUEUES=data,notifications
